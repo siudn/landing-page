@@ -1,2 +1,3 @@
 # landing-page
-Decent looking landing page I made for the Odin Project to display my HTML and CSS skills developed so far.
+Decent looking webpage for the Odin Project, made to showcase the CSS skills I've learned.
+***If you're on phone turn it 90 degrees.*** Will optimize it for mobile when I learn how to lol
