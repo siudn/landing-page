@@ -11,12 +11,12 @@ p {
 }
 
 button {
-    background-color: royalblue;
+    background-color: #3882F6;
     color: white;
     border: 1px;
     border-radius: 10px;
     width: 75px;
-    height: 20px;
+    height: 25px;
 }
 
 header, .top, footer {
@@ -35,6 +35,7 @@ header {
 #bdeoliln {
     width: 60px;
     height: auto;
+    border-radius: 15px;
 }
 
 .links {
@@ -81,13 +82,15 @@ a {
 #heartbreaking {
     width: 340px;
     height: auto;
+    border-radius: 25px;
 }
 
 .mid {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 48px;
     padding: 32px;
+    margin-top: 25px;
 }
 
 #midhead {
@@ -118,4 +121,79 @@ a {
     padding-top: 8px;
     text-align: center;
     color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 50px;
+    margin: 50px 0px;
+}
+
+.quote_text {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    max-width: 600px;
+}
+
+#quote_actual {
+    font-size: 36px;
+    color: #1f2937cc;
+    font-style: italic;
+    font-weight: 50;
+}
+
+#name {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+#gerald {
+    border-radius: 25px;
+    height: 300px;
+    width: auto;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background-color: #3882F6;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 25px;
+    width: 600px;
+    height: 100px;
+}
+
+.emailtext {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 4px;
+}
+
+#emailhead {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#emailbutton {
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 50px;
 }
