@@ -1,0 +1,74 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0;
+}
+
+header, .top, footer {
+    background-color:#1F2937;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 120px;
+    margin: 0;
+}
+
+#bdeoliln {
+    width: 60px;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    padding: 32px 120px;
+    gap: 41px;
+}
+
+.topleft {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#tophead {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin: 0px;
+}
+
+#topsub {
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+}
+
+#heartbreaking {
+    width: 340px;
+    height: auto;
+}
+
+#topbutton {
+    margin: 0;
+}
