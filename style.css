@@ -110,7 +110,7 @@ a {
 .midbody {
     display: flex;
     justify-content: space-evenly;
-    padding: 0px 200px;
+    flex-wrap: wrap;
 }
 
 .combo {
@@ -171,6 +171,8 @@ a {
     border-radius: 25px;
     width: 600px;
     height: 100px;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .emailtext {
